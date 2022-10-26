@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>FAQ Accordion Card</title>
+  </head>
+  <body>
+    <main class="container animate__animated animate__fadeIn">
+      <picture class="container__illustration-box">
+        <source
+          media="(min-width: 750px)"
+          srcset="./images/illustration-box-desktop.svg"
+          alt="box illustration"
+        />
+        <img src="" alt="" />
+      </picture>
+      <div class="container__illustration">
+        <picture class="container__illustration-woman">
+          <source
+            media="(min-width: 750px)"
+            srcset="./images/illustration-woman-online-desktop.svg"
+          />
+          <img
+            class="container__illustration-woman--img"
+            src="./images/illustration-woman-online-mobile.svg"
+            alt="woman online"
+          />
+        </picture>
+        <picture class="container__pattern">
+          <source
+            media="(min-width: 750px)"
+            srcset="./images/bg-pattern-desktop.svg"
+          />
+          <img
+            src="./images/bg-pattern-mobile.svg"
+            alt="pattern image"
+            class="container__pattern--img"
+          />
+        </picture>
+      </div>
+
+      <div class="container__faq faq">
+        <h1 class="faq__h1">FAQ</h1>
+        <div class="faq__items">
+          <div class="faq__items--item">
+            <div class="faq__items--heading">
+              <h2 class="faq__items--h2">
+                How many team members can I invite?
+              </h2>
+              <ion-icon
+                class="faq__items--icon"
+                name="chevron-down-outline"
+              ></ion-icon>
+            </div>
+            <p class="faq__items--p">
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
+          </div>
+          <div class="faq__items--item">
+            <div class="faq__items--heading">
+              <h2 class="faq__items--h2">
+                What is the maximum file upload size?
+              </h2>
+              <ion-icon
+                class="faq__items--icon"
+                name="chevron-down-outline"
+              ></ion-icon>
+            </div>
+            <p class="faq__items--p">
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </p>
+          </div>
+          <div class="faq__items--item">
+            <div class="faq__items--heading">
+              <h2 class="faq__items--h2">How do I reset my password?</h2>
+              <ion-icon
+                class="faq__items--icon"
+                name="chevron-down-outline"
+              ></ion-icon>
+            </div>
+            <p class="faq__items--p">
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </p>
+          </div>
+          <div class="faq__items--item">
+            <div class="faq__items--heading">
+              <h2 class="faq__items--h2">Can I cancel my subscription?</h2>
+              <ion-icon
+                class="faq__items--icon"
+                name="chevron-down-outline"
+              ></ion-icon>
+            </div>
+            <p class="faq__items--p">
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </p>
+          </div>
+          <div class="faq__items--item">
+            <div class="faq__items--heading">
+              <h2 class="faq__items--h2">Do you provide additional support?</h2>
+              <ion-icon
+                class="faq__items--icon"
+                name="chevron-down-outline"
+              ></ion-icon>
+            </div>
+            <p class="faq__items--p">
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer
+      class="attribution animate__animated animate__bounceIn animate__delay-1s 1s"
+    >
+      <div class="attribution__text">
+        <p class="attribution__text--p">
+          Challenge by
+          <a
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            class="attribution__text--a"
+            >Frontend Mentor</a
+          >
+        </p>
+        <p class="attribution__text--p">
+          Coded by
+          <a
+            href="https://dianacruz.pro"
+            target="_blank"
+            class="attribution__text--a"
+            >Diana Cruz</a
+          >
+        </p>
+      </div>
+      <a
+        href="https://www.frontendmentor.io/profile/DianaVCruz"
+        target="_blank"
+      >
+        <img
+          class="attribution__img"
+          src="./images/programmer.webp"
+          alt="programmer"
+        />
+      </a>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
